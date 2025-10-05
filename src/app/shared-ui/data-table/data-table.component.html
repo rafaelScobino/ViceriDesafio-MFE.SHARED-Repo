@@ -3,7 +3,7 @@
           <span class="text-xl font-bold">{{tableCaption || ''  }}</span>
     </div>
 <p-table
-[columns]="productColumns" [value]="products"
+[columns]="tableCols" [value]="tableData"
 showGridlines stripedRows [tableStyle]="{ 'min-width': '50rem' }">
     <ng-template #header let-columns>
         <tr>

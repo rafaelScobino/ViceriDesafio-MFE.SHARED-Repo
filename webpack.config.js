@@ -6,7 +6,6 @@ module.exports = withModuleFederationPlugin({
 
   exposes: {
   './DataTableComponent': './src/app/shared-ui/data-table/data-table.component.ts',
-  './NavBtnsComponent': './src/app/shared-ui/nav-btns/nav-btns.component.ts',
   './NotFoundComponent': './src/app/shared-ui/not-found/not-found.component.ts'
   },
 

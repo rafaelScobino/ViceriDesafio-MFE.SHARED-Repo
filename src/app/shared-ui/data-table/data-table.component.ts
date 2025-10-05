@@ -13,6 +13,8 @@ import { MenuItem } from 'primeng/api';
 })
 export class DataTableComponent {
   @Input() tableCaption: string | undefined;
+@Input() tableCols: { field: string; header: string }[] = []
+@Input() tableData:any[] = []
   @Input() hasBtns: boolean = true;
   @Input() listBtns: MenuItem[] = [
     {
